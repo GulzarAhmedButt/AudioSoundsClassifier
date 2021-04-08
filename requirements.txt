@@ -14,7 +14,6 @@ librosa
 seaborn
 keras
 theano
-librosa.display
 
 
 
