@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block content %}
+
+<h2 style="text-align:center;">Audio Sounds Classifier</h2>
+
+<div style="text-align: center">
+    <form id="upload-file" method="post" enctype="multipart/form-data" action="/predict">
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+        <button type="submit" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+    </form>
+
+</div>
+
+{% endblock %}
