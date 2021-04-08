@@ -14,6 +14,6 @@ librosa
 seaborn
 keras
 theano
-libsndfile1
+pysndfile 
 
 
