@@ -12,7 +12,7 @@ pandas>=0.19
 WTForms==2.3.3
 librosa
 seaborn
-tensorflow
+tensorflow-cpu
 keras
 theano
 
