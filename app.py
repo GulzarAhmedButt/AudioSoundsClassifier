@@ -5,10 +5,6 @@ import seaborn as sns
 import librosa
 from flask import Flask,render_template,request,jsonify,redirect,url_for
 from Model import Model
-from pywebio.platform.flask import webio_view
-from pywebio import STATIC_PATH
-from pywebio.input import *
-from pywebio.output import *
 import os
 from werkzeug.utils import secure_filename
 from sklearn.preprocessing import LabelEncoder
